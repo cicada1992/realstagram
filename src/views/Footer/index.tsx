@@ -9,7 +9,8 @@ export const Footer: React.FC = () => {
       tabBarOptions={{
         activeTintColor: 'tomato',
         inactiveTintColor: 'gray'
-      }}>
+      }}
+    >
       <BottomTab.Screen name="Home" component={Home} />
       <BottomTab.Screen name="Mypage" component={Mypage} />
     </BottomTab.Navigator>

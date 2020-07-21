@@ -1,5 +1,5 @@
 {
-  "name": "RealstagramApp",
+  "name": "realstagram",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,8 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint --ext .js --ext .jsx . --ext .ts --ext .tsx",
-    "prettier": "npx prettier --write **/*.{ts,tsx,json} && npx prettier --write *.{ts,tsx,json}"
+    "lint": "eslint --ext .js --ext .jsx --ext .ts --ext .tsx . && tsc --noEmit --incremental false",
+    "prettier": "npx prettier --config ./.prettierrc.js --write **/*.ts?"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
